@@ -39,7 +39,7 @@
   <ul class="info">
     <li class="address">{address}</li>
     <li>{neighborhood}</li>
-    <li>{price}</li>
+    <li>${price}</li>
     <li>{summary}</li>
   </ul>
 </div>
