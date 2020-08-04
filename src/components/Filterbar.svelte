@@ -26,6 +26,6 @@
 </style>
 
 <div class="filterbar">
-    <h4>Search for Address:</h4>
+    <h4>Enter Street Address:</h4>
     <input bind:value={searchString} on:keyup="{sendSearchString}"/>
 </div>
