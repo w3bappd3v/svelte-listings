@@ -29,7 +29,7 @@ export default [
     neighborhood: "Mr. Rodgers",
     price: "1,020,300",
     summary: "2BD, 2BA, 1200SF, CONDO",
-    imageurl: "/assets/listing-images/listing-1.jpg"
+    imageurl: "/assets/listing-images/listing-3.jpg"
   },
   {
     id: 5,
@@ -45,6 +45,6 @@ export default [
     neighborhood: "Hollywood",
     price: "9,000,000",
     summary: "3BD, 2BA, 1100SF, CO-OP",
-    imageurl: "/assets/listing-images/listing-3.jpg"
+    imageurl: "/assets/listing-images/listing-1.jpg"
   }
 ];
