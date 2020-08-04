@@ -32,12 +32,14 @@
   }
   .address {
     font-size: 1.25em;
+    color: #000;
   }
   li {
     font-size: .75em;
+    color: #8b8b8b;
   }
   a {
-    margin-left: 23px;
+    margin-left: 25px;
   }
   @media only screen and (max-width: 517px) {
       .view-listing {

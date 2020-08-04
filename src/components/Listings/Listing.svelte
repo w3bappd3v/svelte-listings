@@ -28,9 +28,11 @@
   }
   .address {
     font-size: 1.25em;
+    color: #000;
   }
   li {
     font-size: .75em;
+    color: #8b8b8b;
   }
 </style>
 
