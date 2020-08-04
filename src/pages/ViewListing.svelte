@@ -3,14 +3,16 @@
 
   import listings from "../stores/defaultListings";
   import { link } from "svelte-routing";
+  import { fade } from 'svelte/transition';
 
   $: listing = $listings.find(item => item.id === parseInt(id));
+  
 </script>
 
 <style>
   .view-listing {
     width: 450px;
-    margin: 0 auto;
+    margin: 40px auto;
     box-shadow: -2px -1px 12px 5px #b8b8b8bf;
     border: 1px solid #8b8b8b;
     border-radius: 3px;
@@ -45,7 +47,7 @@
     }
 </style>
 
-<div class="view-listing">
+<div class="view-listing" in:fade="{{delay:500}}">
   <a href="/listings" use:link class="btn btn-primary">back to listings</a>
   <div class="listing">
       <img src={listing.imageurl} alt={listing.address} />
