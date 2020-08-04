@@ -9,6 +9,6 @@
 *Cross component communication via Event Dispatching
 *Media Query Responsiveness
 
-*Svelte-Jest Tesing - currently broken not parsing curly braces in ES6 imports.
+*Svelte-Jest Tesing - currently broken not parsing curly braces in ES6 imports.'
 
 
