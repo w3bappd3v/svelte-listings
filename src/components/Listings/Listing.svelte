@@ -29,7 +29,6 @@
   li {
     font-size: .75em;
   }
-
 </style>
 
 <div class="listing">
