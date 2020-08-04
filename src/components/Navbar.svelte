@@ -1,7 +1,7 @@
 <script>
   import { link } from "svelte-routing";
-  import links from "../../constants/links";
-  import globalStore from "../../stores/globalStore";
+  import links from "../constants/links";
+  import globalStore from "../stores/globalStore";
 </script>
 
 <style>
