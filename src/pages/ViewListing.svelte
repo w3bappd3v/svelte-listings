@@ -36,6 +36,9 @@
   li {
     font-size: .75em;
   }
+  a {
+    margin-left: 23px;
+  }
   @media only screen and (max-width: 517px) {
       .view-listing {
         width: 240px;
@@ -48,7 +51,7 @@
 </style>
 
 <div class="view-listing" in:fade="{{delay:500}}">
-  <a href="/listings" use:link class="btn btn-primary">back to listings</a>
+  <a href="/" use:link class="btn btn-primary">back to listings</a>
   <div class="listing">
       <img src={listing.imageurl} alt={listing.address} />
       <ul class="info">

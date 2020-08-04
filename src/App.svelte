@@ -3,9 +3,6 @@
   import Listings from "./pages/Listings.svelte";
 
   import { Router, Route, Link } from "svelte-routing";
-
-  import Navbar from "./components/Navbar.svelte";
-  import globalStore from "./stores/globalStore";
 </script>
 
 <style>
@@ -27,9 +24,7 @@
 
 <Router>
   <div class="app">
-    <Navbar />
     <Route path="/" component={Listings} />
-    <Route path="/listings" component={Listings} />
     <Route path="/listings/:id" component={ViewListing} />
   </div>
 
