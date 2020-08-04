@@ -13,7 +13,7 @@
 
 <style>
     .filterbar {
-        margin-left: 20px;
+        margin-left: 9px;
         margin-bottom: 10px;
     }
     input {
@@ -22,6 +22,11 @@
     }
     h4 {
         margin-bottom: 5px;
+    }
+    @media only screen and (max-width: 517px) {
+        input {
+        max-width: 223px;
+      }
     }
 </style>
 

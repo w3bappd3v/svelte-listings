@@ -13,8 +13,18 @@
 <style>
   .app {
     margin: 0 auto;
-    width: 80%;
+    max-width: 773px;
   }
+  @media only screen and (max-width: 758px) {
+    .app {
+      max-width: 518px;
+    }
+    @media only screen and (max-width: 517px) {
+      .app {
+        max-width: 277px;
+      }
+    }
+}
 </style>
 
 <Router>

@@ -1,7 +1,10 @@
 <script>
   export let listing;
-  const { address, imageurl, price, id, neighborhood, summary } = listing;
+  
   import { link } from "svelte-routing";
+  import { fade } from 'svelte/transition';
+
+  const { address, imageurl, price, id, neighborhood, summary } = listing;
 </script>
 
 <style>
@@ -31,7 +34,7 @@
   }
 </style>
 
-<div class="listing">
+<div class="listing" transition:fade>
   <img src={imageurl} alt={address} />
   <a href={`/listings/${id}`} class="btn btn-primary listing-link" use:link>
      View Listing

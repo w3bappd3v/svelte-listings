@@ -34,7 +34,15 @@
   li {
     font-size: .75em;
   }
-
+  @media only screen and (max-width: 517px) {
+      .view-listing {
+        width: 240px;
+      }
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    }
 </style>
 
 <div class="view-listing">

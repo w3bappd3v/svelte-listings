@@ -9,10 +9,8 @@
     display: flex;
     justify-content: flex-start;
     list-style: none;
-  }
-
-  ul li {
-    margin: 0 5px;
+    margin: 0 0 0 11px;
+    padding: 0;
   }
 </style>
 
