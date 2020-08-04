@@ -6,6 +6,7 @@
 
   let filteredListings = listings;
 
+  // this was a bit tricky with the string number types
   function filterListings (event) {
     let searchStr = event.detail.text.toLowerCase();
     const isnum = /^\d+$/.test(parseInt(event.detail.text));
@@ -21,7 +22,6 @@
 
 <style>
   .listings {
-    width: 75%;
     display: flex;
     flex-wrap: wrap;
   }

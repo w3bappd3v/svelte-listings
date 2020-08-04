@@ -10,9 +10,19 @@
   import globalStore from "./stores/globalStore";
 </script>
 
+<style>
+  .app {
+    margin: 0 auto;
+    width: 80%;
+  }
+</style>
+
 <Router>
-  <Navbar />
-  <Route path="/" component={Listings} />
-  <Route path="/listings" component={Listings} />
-  <Route path="/listings/:id" component={ViewListing} />
+  <div class="app">
+    <Navbar />
+    <Route path="/" component={Listings} />
+    <Route path="/listings" component={Listings} />
+    <Route path="/listings/:id" component={ViewListing} />
+  </div>
+
 </Router>

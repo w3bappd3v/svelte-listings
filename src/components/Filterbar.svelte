@@ -12,11 +12,20 @@
 </script>
 
 <style>
-
+    .filterbar {
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    input {
+        border-radius: 3px;
+        box-shadow: -2px -1px 10px 2px #b8b8b8bf;
+    }
+    h4 {
+        margin-bottom: 5px;
+    }
 </style>
 
 <div class="filterbar">
-    Filter:
+    <h4>Type Address:</h4>
     <input bind:value={searchString} on:keyup="{sendSearchString}"/>
-    <p>{searchString}</p>
 </div>

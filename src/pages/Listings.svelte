@@ -1,5 +1,5 @@
 <script>
-  import Products from "../components/Listings/Listings.svelte";
+  import Listings from "../components/Listings/Listings.svelte";
 </script>
 
-<Products title="our listings" />
+<Listings title="our listings" />
