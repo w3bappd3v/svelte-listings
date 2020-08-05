@@ -1,5 +1,5 @@
 # SVELTE Demo App
-> A typeahead style filterable list of components with drilldown routing to individual list items.
+A typeahead style filterable list of components with drilldown routing to individual list items.
 
 ## SPA Concepts/Features
 * Component based architecture
@@ -9,6 +9,6 @@
 * Cross component communication via Event Dispatching
 * Media Query Responsiveness
 
-* Svelte-Jest Tesing - currently broken not parsing curly braces in ES6 imports.'
+* Svelte-Jest Tesing - currently broken not parsing curly braces in ES6 imports.
 
 
