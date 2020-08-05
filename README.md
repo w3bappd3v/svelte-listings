@@ -1,5 +1,5 @@
 # SVELTE Demo App
-A typeahead style filterable list of components with drilldown routing to individual list items.
+A filterable list of components with drilldown routing to individual list items.
 
 ## SPA Concepts/Features
 * Component based architecture
