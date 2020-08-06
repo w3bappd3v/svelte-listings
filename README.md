@@ -15,6 +15,7 @@ A filterable list of components with drilldown routing to individual list items.
 
 ## Known Issues
 * Svelte-Jest Tesing - currently broken not parsing curly braces in ES6 imports, components without '}' testable
-* Funky isms in filter string match.....perhaps a feature and not a bug
+* Funky isms in filter string match
+* Jumpiness when scrollbars show/hide 
 
 
