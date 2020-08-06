@@ -10,8 +10,8 @@ A filterable list of components with drilldown routing to individual list items.
 * Media Query Responsiveness
 
 ## UI / Look and Feel from Scratch
-*No Bootcstrap CSS
-*Browser native flexbox responsiveness
+* No Bootcstrap CSS
+* Browser native flexbox responsiveness
 
 ## Known Issues
 * Svelte-Jest Tesing - currently broken not parsing curly braces in ES6 imports, components without '}' testable
