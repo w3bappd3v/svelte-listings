@@ -39,7 +39,9 @@
       "^.+\\.svelte$": "svelte-jester"
     },
     "verbose": true,
-    "setupFilesAfterEnv": ["@testing-library/jest-dom/extend-expect"]
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-dom/extend-expect"
+    ]
   },
   "babel": {
     "presets": [
