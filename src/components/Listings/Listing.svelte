@@ -13,7 +13,7 @@
   .listing {
     width: 200px;
     height: fit-content;
-    border: 1px solid #8b8b8b;
+    border: 1px solid #d4d4d4;
     border-radius: 3px;
     margin: 20px 10px;
     padding: 10px;

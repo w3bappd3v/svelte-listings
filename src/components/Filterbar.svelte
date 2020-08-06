@@ -16,8 +16,12 @@
         margin-left: 9px;
         margin-bottom: 10px;
     }
+    input:focus{
+        outline-color: #a4dfb5;
+    }
     input {
         border-radius: 3px;
+        border: 1px solid #d4d4d4;
         box-shadow: -2px -1px 10px 2px #b8b8b8bf;
     }
     h4 {

@@ -16,7 +16,7 @@
     width: 450px;
     margin: 40px auto;
     box-shadow: -2px -1px 12px 5px #b8b8b8bf;
-    border: 1px solid #8b8b8b;
+    border: 1px solid #d4d4d4;
     border-radius: 3px;
     padding: 10px;
   }

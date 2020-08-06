@@ -1,10 +1,10 @@
 <script>
-    export let listing;
-    const { address, imageurl, price, id, neighborhood, summary } = listing;
+export let listing;
+  const { address, imageurl, price, id, neighborhood, summary } = listing;
 </script>
 
 <style>
-     ul {
+  ul {
     padding: 0;
     list-style: none;
   }
@@ -19,8 +19,8 @@
 </style>
 
 <ul class="info">
-    <li class="address">{address}</li>
-    <li>{neighborhood}</li>
-    <li>${price}</li>
-    <li>{summary}</li>
-  </ul>
+  <li class="address">{address}</li>
+  <li>{neighborhood}</li>
+  <li>${price}</li>
+  <li>{summary}</li>
+</ul>
