@@ -5,6 +5,8 @@
   import { link } from "svelte-routing";
   import { fade } from 'svelte/transition';
 
+  import Info from "../components/Info.svelte";
+
   $: listing = $listings.find(item => item.id === parseInt(id));
   
 </script>
@@ -21,25 +23,11 @@
   img {
     width: 400px;
     height: 400px;
-    margin: 0 auto;
     display: block;
   }
-  ul {
-    padding: 0;
-    list-style: none;
-    width: 50%;
+  .listing {
     margin: 0 auto;
-  }
-  .address {
-    font-size: 1.25em;
-    color: #000;
-  }
-  li {
-    font-size: .75em;
-    color: #8b8b8b;
-  }
-  a {
-    margin-left: 25px;
+    display: table;
   }
   @media only screen and (max-width: 517px) {
       .view-listing {
@@ -53,14 +41,9 @@
 </style>
 
 <div class="view-listing" in:fade="{{delay:500}}">
-  <a href="/" use:link class="btn btn-primary">back to listings</a>
   <div class="listing">
-      <img src={listing.imageurl} alt={listing.address} />
-      <ul class="info">
-        <li class="address">{listing.address}</li>
-        <li>{listing.neighborhood}</li>
-        <li>${listing.price}</li>
-        <li>{listing.summary}</li>
-      </ul>
+    <a href="/" use:link class="btn btn-primary">back to listings</a>
+    <img src={listing.imageurl} alt={listing.address} />
+    <Info {listing} />
   </div>
 </div>

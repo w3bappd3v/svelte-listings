@@ -3,6 +3,8 @@
   
   import { link } from "svelte-routing";
   import { fade } from 'svelte/transition';
+  
+  import Info from "../Info.svelte";
 
   const { address, imageurl, price, id, neighborhood, summary } = listing;
 </script>
@@ -22,18 +24,6 @@
     width:200px;
     height: 200px;
   }
-  ul {
-    padding: 0;
-    list-style: none;
-  }
-  .address {
-    font-size: 1.25em;
-    color: #000;
-  }
-  li {
-    font-size: .75em;
-    color: #8b8b8b;
-  }
 </style>
 
 <div class="listing" transition:fade>
@@ -41,10 +31,5 @@
   <a href={`/listings/${id}`} class="btn btn-primary listing-link" use:link>
      View Listing
   </a>
-  <ul class="info">
-    <li class="address">{address}</li>
-    <li>{neighborhood}</li>
-    <li>${price}</li>
-    <li>{summary}</li>
-  </ul>
+  <Info {listing} />
 </div>
