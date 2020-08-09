@@ -1,6 +1,6 @@
 <script>
 export let listing;
-  const { address, imageurl, price, id, neighborhood, summary } = listing;
+  const { address, price, neighborhood, summary } = listing;
 </script>
 
 <style>

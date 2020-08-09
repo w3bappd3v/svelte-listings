@@ -1,8 +1,7 @@
 <script>
   export let listing;
-  
-  import { link } from "svelte-routing";
-  
+
+  import { link } from "svelte-routing"; 
   import Info from "../Info.svelte";
 
   const { address, imageurl, price, id, neighborhood, summary } = listing;
