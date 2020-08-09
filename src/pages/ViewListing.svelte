@@ -3,7 +3,6 @@
 
   import listings from "../stores/defaultListings";
   import { link } from "svelte-routing";
-  import { fade } from 'svelte/transition';
 
   import Info from "../components/Info.svelte";
 
@@ -40,7 +39,7 @@
     }
 </style>
 
-<div class="view-listing" in:fade="{{delay:500}}">
+<div class="view-listing">
   <div class="listing">
     <a href="/" use:link class="btn btn-primary">back to listings</a>
     <img src={listing.imageurl} alt={listing.address} />

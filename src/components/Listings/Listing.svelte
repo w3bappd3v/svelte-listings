@@ -2,7 +2,6 @@
   export let listing;
   
   import { link } from "svelte-routing";
-  import { fade } from 'svelte/transition';
   
   import Info from "../Info.svelte";
 
@@ -26,7 +25,7 @@
   }
 </style>
 
-<div class="listing" transition:fade>
+<div class="listing">
   <img src={imageurl} alt={address} />
   <a href={`/listings/${id}`} class="btn btn-primary listing-link" use:link>
      View Listing
