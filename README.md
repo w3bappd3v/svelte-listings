@@ -12,6 +12,7 @@ A filterable list of components with drilldown routing to individual list items
 ## Install Notes for Cypress Testing
 To get cypress tests running you need to do a manual npm install of a dependency for the moment
 * cd node_modules/@bahmutov/cy-rollup
+* npm install
 * npm audit fix
 
 
