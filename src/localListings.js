@@ -9,7 +9,7 @@ export default [
   },
   {
     id: 2,
-    address: "321 Second Ave",
+    address: "321 2nd Ave",
     neighborhood: "Harlem",
     price: "100,000",
     summary: "2BD, 2BA, 900SF, SINGLE-FAMILY",
@@ -17,7 +17,7 @@ export default [
   },
   {
     id: 3,
-    address: "456 Th1rd Street",
+    address: "456 Third Street",
     neighborhood: "Withering Heights",
     price: "100,000,000",
     summary: "3BD, 2BA, 1100SF, CO-OP",
@@ -25,7 +25,7 @@ export default [
   },
   {
     id: 4,
-    address: "654 Fourth St",
+    address: "654 Elm St",
     neighborhood: "Mr. Rodgers",
     price: "1,020,300",
     summary: "2BD, 2BA, 1200SF, CONDO",
