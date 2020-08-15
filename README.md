@@ -9,8 +9,8 @@ A filterable list of components with drilldown routing to individual list items
 * Cross component communication via Event Dispatching
 * Media Query Responsiveness
 
-## Install Notes for Cypress Testing
-To get cypress tests running you need to do a manual npm install of a dependency for the moment
+## Install Notes for Cypress Testing (windows only)
+To get cypress tests running on windows needed to do a manual npm install of cy-rollup
 * cd node_modules/@bahmutov/cy-rollup
 * npm install
 * npm audit fix
