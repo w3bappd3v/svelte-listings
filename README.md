@@ -1,7 +1,7 @@
 # SVELTE Demo App
 A filterable list of components with drilldown routing to individual list items
 
-https://www.c0dez0ne.com/img/svelte-listings.jpg
+![Alt text](https://www.c0dez0ne.com/img/svelte-listings.jpg "UI Screen")
 
 ## SPA Concepts/Features
 * Component based architecture
