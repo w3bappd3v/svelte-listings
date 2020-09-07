@@ -1,6 +1,8 @@
 # SVELTE Demo App
 A filterable list of components with drilldown routing to individual list items
 
+https://www.c0dez0ne.com/img/svelte-listings.jpg
+
 ## SPA Concepts/Features
 * Component based architecture
 * Client Side Routing
